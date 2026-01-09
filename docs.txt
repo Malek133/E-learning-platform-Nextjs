@@ -1,0 +1,11 @@
+Dans un premier temps, tu vas devoir créer une base de données Postgres sur Vercel et coller
+
+#.env.development
+DATABASE_URL="postgres://default:xxxxx@hostname.tech:5432/verceldb?sslmode=require"
+Exécute les scripts de manipulation de BDD
+
+pnpm db:generate
+pnpm db:migrate
+pnpm db:check
+pnpm db:studio
+pnpm db:reset-seed /** if we need to restart evry thing **/

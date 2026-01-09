@@ -10,7 +10,7 @@ const Header = async () => {
     <header className="flex h-14 items-center px-4 lg:px-6">
       <Link className="flex items-center justify-center gap-x-2" href="/">
         <LogoIcon height={24} width={24} />
-        <span className="hidden md:flex">Tracker Entrepreneur</span>
+        <span className="hidden md:flex">E-learning-platform</span>
       </Link>
       <nav className="ml-auto flex items-center gap-4 sm:gap-6">
         {session ? (
@@ -18,14 +18,14 @@ const Header = async () => {
             className="text-sm font-medium underline-offset-4 hover:underline"
             href="/dashboard"
           >
-            Tableau de bord
+            Dashboard
           </Link>
         ) : (
           <Link
             className="text-sm font-medium underline-offset-4 hover:underline"
             href="/sign-in"
           >
-            Se connecter
+           log in
           </Link>
         )}
         <ModeToggle />

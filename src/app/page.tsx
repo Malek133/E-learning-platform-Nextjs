@@ -19,13 +19,13 @@ export default function Page() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Plateforme de tracker <br />
-                    pour les entrepreneur
+                    E-learning-platform 
+                    
                   </h1>
                   <p className="max-w-[600px] text-foreground/50 md:text-xl">
-                    Commencez à traquer vos finances et vos exercice. Donnez
-                    vous les clefs de la réussite en gardant un oeil sur vos
-                    progrès et vos revenus.
+                    A powerful e-learning platform that transforms knowledge into action. 
+                    Learn from experts, track your progress, and grow your skills anytime, 
+                    anywhere.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -33,7 +33,7 @@ export default function Page() {
                     href="/sign-in"
                     className={cn(buttonVariants(), 'px-8')}
                   >
-                    Commencez
+                    Start
                   </Link>
                 </div>
               </div>
@@ -62,15 +62,18 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-secondary px-3 py-1 text-sm">
-                  Élément clé
+                  Key element
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                  Rapide, simple et fiable.
+                  Fast, simple, and reliable.
                 </h2>
                 <p className="max-w-[900px] text-foreground/50 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Une plateforme pour tracker vos performances. Rester focus vos
-                  objectifs tout en suivant votre évolution au lieu de perdre du
-                  temps et de l&apos;argent.
+                  An e-learning platform built to empower entrepreneurs and professionals 
+                  with practical knowledge, performance tracking, and tools for long-term success.”
+
+                   If you want it shorter, more persuasive, or focused on 
+                   entrepreneurs/fitness/finance (like your previous texts), 
+                   tell me and I’ll tailor it exactly 🚀
                 </p>
               </div>
             </div>
